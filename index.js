@@ -1,4 +1,4 @@
-const data = require('./db')
+const data = require('./db.json')
 const express = require('express');
 var sha256 = require('js-sha256');
 const app = express();
